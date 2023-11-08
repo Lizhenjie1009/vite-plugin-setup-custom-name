@@ -18,7 +18,7 @@ export function supportScriptName(code, id) {
     const dealStr = (arr) => {
       let str = ''
       arr.forEach(item => {
-        str += `${item[0]}: ${item[1]},`
+        str += `${item[0]}: '${item[1]}',`
       })
       return str
     }
